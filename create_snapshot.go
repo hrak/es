@@ -17,7 +17,7 @@ Example:
 
   $ es create-snapshot nfs logstash_1 < nfs-snapshot.json
 `,
-	ApiUrl: "http://www.elasticsearch.org/guide/en/elasticsearch/reference/current/modules-snapshots.html#_snapshots",
+	ApiUrl: "https://www.elastic.co/guide/en/elasticsearch/reference/current/modules-snapshots.html#_snapshot",
 }
 
 var waitForCompletion bool

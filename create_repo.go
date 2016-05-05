@@ -16,7 +16,7 @@ Example:
 
   $ es create-repo nfs < nfs-repo.json
 `,
-	ApiUrl: "http://www.elasticsearch.org/guide/en/elasticsearch/reference/current/modules-snapshots.html#_repositories",
+	ApiUrl: "https://www.elastic.co/guide/en/elasticsearch/reference/current/modules-snapshots.html#_repositories",
 }
 
 func runCreateRepo(cmd *Command, args []string) {

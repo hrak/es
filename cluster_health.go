@@ -16,7 +16,7 @@ Example:
 
   $ es cluster-health
 `,
-	ApiUrl: "http://www.elasticsearch.org/guide/reference/api/admin-cluster-health.html",
+	ApiUrl: "https://www.elastic.co/guide/en/elasticsearch/reference/current/cluster-health.html",
 }
 
 func runClusterHealth(cmd *Command, args []string) {

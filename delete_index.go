@@ -16,7 +16,7 @@ Example:
 
   $ es delete marvel
 `,
-	ApiUrl: "http://www.elasticsearch.org/guide/reference/api/admin-indices-delete-index.html",
+	ApiUrl: "https://www.elastic.co/guide/en/elasticsearch/reference/current/indices-delete-index.html",
 }
 
 func init() {

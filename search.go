@@ -17,7 +17,7 @@ Example:
 
   $ es search twitter "user:kimchy"
 `,
-	ApiUrl: "http://www.elasticsearch.org/guide/reference/api/search/uri-request.html",
+	ApiUrl: "https://www.elastic.co/guide/en/elasticsearch/reference/current/search-uri-request.html",
 }
 
 func runSearch(cmd *Command, args []string) {

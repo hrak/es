@@ -18,7 +18,7 @@ Example:
   $ es flush
   $ es flush twitter
 `,
-	ApiUrl: "http://www.elasticsearch.org/guide/reference/api/admin-indices-flush.html",
+	ApiUrl: "https://www.elastic.co/guide/en/elasticsearch/reference/current/indices-flush.html",
 }
 
 func runFlush(cmd *Command, args []string) {

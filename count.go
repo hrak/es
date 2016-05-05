@@ -18,7 +18,7 @@ Example:
   $ es count catalog-1
   $ es count "catalog-*"
 `,
-	ApiUrl: "http://www.elasticsearch.org/guide/en/elasticsearch/reference/current/search-count.html",
+	ApiUrl: "https://www.elastic.co/guide/en/elasticsearch/reference/current/search-count.html",
 }
 
 func runCount(cmd *Command, args []string) {

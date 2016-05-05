@@ -17,7 +17,7 @@ Example:
   $ es settings
   $ es settings twitter
 `,
-	ApiUrl: "http://www.elasticsearch.org/guide/reference/api/admin-indices-get-settings.html",
+	ApiUrl: "https://www.elastic.co/guide/en/elasticsearch/reference/current/indices-get-settings.html",
 }
 
 func runSettings(cmd *Command, args []string) {

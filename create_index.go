@@ -16,7 +16,7 @@ Example:
 
   $ es create marvel
 `,
-	ApiUrl: "http://www.elasticsearch.org/guide/reference/api/admin-indices-create-index.html",
+	ApiUrl: "https://www.elastic.co/guide/en/elasticsearch/reference/current/indices-create-index.html",
 }
 
 func init() {

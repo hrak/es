@@ -24,7 +24,7 @@ Example:
   $ es indices 'mas.*'
   master
 `,
-	ApiUrl: "http://www.elasticsearch.org/guide/reference/api/index_.html",
+	ApiUrl: "https://www.elastic.co/guide/en/elasticsearch/reference/current/docs-index_.html",
 }
 
 func init() {

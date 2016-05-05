@@ -26,7 +26,7 @@ Example:
   $ es flush-enable
   $ es flush-enable twitter
 `,
-	ApiUrl: "http://www.elasticsearch.org/guide/reference/api/admin-indices-update-settings.html",
+	ApiUrl: "https://www.elastic.co/guide/en/elasticsearch/reference/current/indices-update-settings.html",
 }
 
 func runFlushEnable(cmd *Command, args []string) {

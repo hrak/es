@@ -27,7 +27,7 @@ Example:
 
   $ es bulk -v twitter < twitter-data.json
 `,
-	ApiUrl: "http://www.elasticsearch.org/guide/reference/api/bulk.html",
+	ApiUrl: "https://www.elastic.co/guide/en/elasticsearch/reference/current/docs-bulk.html",
 }
 
 func init() {

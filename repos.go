@@ -21,7 +21,7 @@ Example:
   $ es repos 's3.*'
   s3
 `,
-	ApiUrl: "http://www.elasticsearch.org/guide/en/elasticsearch/reference/current/modules-snapshots.html#_repositories",
+	ApiUrl: "https://www.elastic.co/guide/en/elasticsearch/reference/current/modules-snapshots.html#_repositories",
 }
 
 func init() {

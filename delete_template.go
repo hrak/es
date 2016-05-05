@@ -10,7 +10,7 @@ var cmdDeleteTemplate = &Command{
 	Usage:  "delete-template [-f] <template>",
 	Short:  "delete template",
 	Long:   `Deletes the specified template.`,
-	ApiUrl: "http://www.elasticsearch.org/guide/reference/api/admin-indices-templates.html",
+	ApiUrl: "https://www.elastic.co/guide/en/elasticsearch/reference/current/indices-templates.html#delete",
 }
 
 func init() {

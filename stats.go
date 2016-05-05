@@ -18,7 +18,7 @@ Example:
   $ es stats
   $ es stats twitter
 `,
-	ApiUrl: "http://www.elasticsearch.org/guide/reference/api/admin-indices-stats.html",
+	ApiUrl: "https://www.elastic.co/guide/en/elasticsearch/reference/current/indices-stats.html",
 }
 
 func runStats(cmd *Command, args []string) {

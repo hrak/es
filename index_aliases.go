@@ -21,7 +21,7 @@ Example:
   $ es index-aliases 'mas.*'
   master -> alias1, alias2
 `,
-	ApiUrl: "http://www.elasticsearch.org/guide/reference/api/admin-indices-aliases.html",
+	ApiUrl: "https://www.elastic.co/guide/en/elasticsearch/reference/current/indices-aliases.html",
 }
 
 func runIndexAliases(cmd *Command, args []string) {

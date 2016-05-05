@@ -10,7 +10,7 @@ var cmdDeleteSnapshot = &Command{
 	Usage:  "delete-snapshot [-f] <snapshot>",
 	Short:  "delete snapshot",
 	Long:   `Deletes the specified snapshot.`,
-	ApiUrl: "http://www.elasticsearch.org/guide/en/elasticsearch/reference/current/modules-snapshots.html#_snapshot",
+	ApiUrl: "https://www.elastic.co/guide/en/elasticsearch/reference/current/modules-snapshots.html#_snapshot",
 }
 
 func runDeleteSnapshot(cmd *Command, args []string) {

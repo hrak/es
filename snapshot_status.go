@@ -24,7 +24,7 @@ Example:
   $ es snapshot-status nfs twitter_1
 {"snapshots":[ {"snapshot": "twitter_1", ...} ]}
 `,
-	ApiUrl: "http://www.elasticsearch.org/guide/en/elasticsearch/reference/current/modules-snapshots.html#_snapshot_status",
+	ApiUrl: "https://www.elastic.co/guide/en/elasticsearch/reference/current/modules-snapshots.html#_snapshot_status",
 }
 
 func runSnapshotStatus(cmd *Command, args []string) {

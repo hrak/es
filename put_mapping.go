@@ -11,13 +11,13 @@ var cmdPutMapping = &Command{
 	Short: "create or update mapping",
 	Long: `
 Creates or updates a mapping for a document type on an index.
-http://www.elasticsearch.org/guide/reference/api/admin-indices-put-mapping.html
+https://www.elastic.co/guide/en/elasticsearch/reference/current/indices-put-mapping.html
 
 Example:
 
   $ es put-mapping twitter tweet < tweet-mapping.json
 `,
-	ApiUrl: "http://www.elasticsearch.org/guide/reference/api/admin-indices-put-mapping.html",
+	ApiUrl: "https://www.elastic.co/guide/en/elasticsearch/reference/current/indices-put-mapping.html",
 }
 
 func runPutMapping(cmd *Command, args []string) {

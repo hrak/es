@@ -18,7 +18,7 @@ Example:
   $ es snapshot nfs logstash_1
 {}
 `,
-	ApiUrl: "http://www.elasticsearch.org/guide/en/elasticsearch/reference/current/modules-snapshots.html#_snapshots",
+	ApiUrl: "https://www.elastic.co/guide/en/elasticsearch/reference/current/modules-snapshots.html#_snapshot",
 }
 
 func runSnapshot(cmd *Command, args []string) {

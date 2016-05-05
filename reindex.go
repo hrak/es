@@ -34,7 +34,7 @@ Example:
   $ es reindex -v twitter twitter-snapshot
   $ es reindex -v -source=http://cluster1:9200 -target=http://cluster2:9200 twitter twitter-snapshot
 `,
-	ApiUrl: "http://www.elasticsearch.org/guide/reference/api/bulk.html",
+	ApiUrl: "https://www.elastic.co/guide/en/elasticsearch/reference/current/docs-bulk.html",
 }
 
 var (

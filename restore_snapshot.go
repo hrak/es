@@ -17,7 +17,7 @@ Example:
   $ es restore-snapshot my_backup snapshot1
   $ es restore-snapshot -f my_backup snapshot1
 `,
-	ApiUrl: "http://www.elasticsearch.org/guide/en/elasticsearch/reference/current/modules-snapshots.html#_restore",
+	ApiUrl: "https://www.elastic.co/guide/en/elasticsearch/reference/current/modules-snapshots.html#_restore",
 }
 
 func runRestoreSnapshot(cmd *Command, args []string) {

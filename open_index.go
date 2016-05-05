@@ -16,7 +16,7 @@ Example:
 
   $ es open marvel
 `,
-	ApiUrl: "http://www.elasticsearch.org/guide/reference/api/admin-indices-open-close.html",
+	ApiUrl: "https://www.elastic.co/guide/en/elasticsearch/reference/current/indices-open-close.html",
 }
 
 func init() {

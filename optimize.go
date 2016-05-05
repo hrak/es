@@ -21,7 +21,7 @@ Example:
   $ es optimize -f=false twitter
   $ es optimize twitter
 `,
-	ApiUrl: "http://www.elasticsearch.org/guide/reference/api/admin-indices-optimize.html",
+	ApiUrl: "https://www.elastic.co/guide/en/elasticsearch/reference/current/indices-optimize.html",
 }
 
 func init() {
