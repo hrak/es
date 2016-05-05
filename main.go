@@ -73,7 +73,6 @@ var commands = []*Command{
 	cmdOpenIndex,
 	cmdCloseIndex,
 	cmdSettings,
-	cmdStatus,
 	cmdStats,
 	cmdRefresh,
 	cmdOptimize,
