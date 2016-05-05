@@ -74,6 +74,7 @@ var commands = []*Command{
 	cmdCloseIndex,
 	cmdSettings,
 	cmdStats,
+	cmdRecovery,
 	cmdRefresh,
 	cmdOptimize,
 	cmdFlush,
