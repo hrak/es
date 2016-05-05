@@ -6,7 +6,7 @@ import (
 	"regexp"
 	"sort"
 
-	"github.com/olivere/elastic"
+	"gopkg.in/olivere/elastic.v3"
 )
 
 var cmdIndices = &Command{
