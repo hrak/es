@@ -16,7 +16,7 @@ Example:
 
   $ es cluster-nodes
 `,
-	ApiUrl: "http://www.elasticsearch.org/guide/reference/api/admin-cluster-nodes-info.html",
+	ApiUrl: "https://www.elastic.co/guide/en/elasticsearch/reference/current/cluster-nodes-info.html",
 }
 
 func runClusterNodes(cmd *Command, args []string) {
@@ -32,7 +32,7 @@ func runClusterNodes(cmd *Command, args []string) {
 		"&transport=true" +
 		"&http=true"
 
-	body := ESReq("GET", "/_cluster/nodes?"+params).Do(&response)
+	body := ESReq("GET", "/_nodes?"+params).Do(&response)
 
 	if error, ok := response["error"]; ok {
 		status, _ := response["status"]
